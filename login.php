@@ -66,4 +66,6 @@ class User
         return password_verify($password, $row['password']);
     }
 
+
+     return password_verify($password, $row['password']);
 }
